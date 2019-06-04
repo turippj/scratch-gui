@@ -1,6 +1,9 @@
 import React from 'react';
 import {FormattedMessage} from 'react-intl';
 
+import newblocksImage from './newblocks/newblocks.png'
+import newblocksInsetImage from './newblocks/newblocks-small.png'
+
 import musicIconURL from './music/music.png';
 import musicInsetIconURL from './music/music-small.svg';
 
@@ -317,5 +320,26 @@ export default [
             />
         ),
         helpLink: 'https://scratch.mit.edu/vernier'
+    },
+
+    {
+        name: 'NewBlocks',
+        extensionId: 'newblocks',
+        collaborator: 'MakTak',
+        iconURL: newblocksImage,
+        insetIconURL: newblocksInsetImage,
+        description: (
+            <FormattedMessage
+                defaultMessage="New blocks."
+                description="my block"
+                id="gui.extension.newblocks.description"
+            />
+        ),
+        featured: true,
+        disabled: false,
+        internetConnectionRequired: true,
+        bluetoothRequired: false,
+        helpLink: 'https://scratch.mit.edu/wedo'
+
     }
 ];
