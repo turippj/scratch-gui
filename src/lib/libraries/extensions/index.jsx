@@ -331,7 +331,7 @@ export default [
         description: (
             <FormattedMessage
                 defaultMessage="New blocks."
-                description="my block"
+                description="my block test"
                 id="gui.extension.newblocks.description"
             />
         ),
