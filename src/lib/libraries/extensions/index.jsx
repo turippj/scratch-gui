@@ -323,15 +323,15 @@ export default [
     },
 
     {
-        name: 'NewBlocks',
-        extensionId: 'newblocks',
+        name: 'TURIP',
+        extensionId: 'turip',
         collaborator: 'MakTak',
         iconURL: newblocksImage,
         insetIconURL: newblocksInsetImage,
         description: (
             <FormattedMessage
-                defaultMessage="New blocks."
-                description="my block test"
+                defaultMessage="TURIP blocks."
+                description="Manage TURIP-Pods."
                 id="gui.extension.newblocks.description"
             />
         ),
