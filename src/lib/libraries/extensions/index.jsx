@@ -1,8 +1,8 @@
 import React from 'react';
 import {FormattedMessage} from 'react-intl';
 
-import newblocksImage from './newblocks/newblocks.png'
-import newblocksInsetImage from './newblocks/newblocks-small.png'
+import turipBlocksImage from './newblocks/newblocks.png'
+import turipBlocksInsetImage from './newblocks/newblocks-small.png'
 
 import musicIconURL from './music/music.png';
 import musicInsetIconURL from './music/music-small.svg';
@@ -326,8 +326,8 @@ export default [
         name: 'TURIP',
         extensionId: 'turip',
         collaborator: 'MakTak',
-        iconURL: newblocksImage,
-        insetIconURL: newblocksInsetImage,
+        iconURL: turipBlocksImage,
+        insetIconURL: turipBlocksInsetImage,
         description: (
             <FormattedMessage
                 defaultMessage="TURIP blocks."
