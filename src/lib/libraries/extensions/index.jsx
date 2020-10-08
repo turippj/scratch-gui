@@ -1,3 +1,6 @@
+/* eslint-disable comma-dangle */
+/* eslint-disable quotes */
+
 import React from 'react';
 import {FormattedMessage} from 'react-intl';
 
@@ -46,8 +49,11 @@ import gdxforInsetIconURL from './gdxfor/gdxfor-small.svg';
 import gdxforConnectionIconURL from './gdxfor/gdxfor-illustration.svg';
 import gdxforConnectionSmallIconURL from './gdxfor/gdxfor-small.svg';
 
-import tupotoneBlocksImage from "./tupotone/tupotone.png";
-import tupotoneBlocksInsetImage from "./tupotone/tupotone-small.png";
+import tupotoneBlocksImage from './tupotone/tupotone.png';
+import tupotoneBlocksInsetImage from './tupotone/tupotone-small.png';
+
+import ml2scratchIconURL from './ml2scratch/ml2scratch.png';
+import ml2scratchInsetIconURL from './ml2scratch/ml2scratch-small.png';
 
 export default [
     {
@@ -321,7 +327,6 @@ export default [
         ),
         helpLink: "https://scratch.mit.edu/vernier",
     },
-
     {
         name: "TupotOne",
         extensionId: "tupotone",
@@ -334,5 +339,23 @@ export default [
         internetConnectionRequired: false,
         bluetoothRequired: false,
         helpLink: "https://www.turip.jp/",
+    },
+    {
+        name: "ML2Scratch",
+        extensionId: "ml2scratch",
+        collaborator: "champierre",
+        iconURL: ml2scratchIconURL,
+        insetIconURL: ml2scratchInsetIconURL,
+        description: (
+            <FormattedMessage
+                defaultMessage="ML2Scratch Blocks."
+                description="ML2Scratch Blocks."
+                id="gui.extension.ml2scratchblocks.description"
+            />
+        ),
+        featured: true,
+        disabled: false,
+        internetConnectionRequired: true,
+        bluetoothRequired: false,
     },
 ];
