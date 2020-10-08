@@ -49,6 +49,9 @@ import gdxforInsetIconURL from './gdxfor/gdxfor-small.svg';
 import gdxforConnectionIconURL from './gdxfor/gdxfor-illustration.svg';
 import gdxforConnectionSmallIconURL from './gdxfor/gdxfor-small.svg';
 
+import tupotoneBlocksImage from "./tupotone/tupotone.png";
+import tupotoneBlocksInsetImage from "./tupotone/tupotone-small.png";
+
 export default [
     {
         name: (
@@ -58,7 +61,7 @@ export default [
                 id="gui.extension.music.name"
             />
         ),
-        extensionId: 'music',
+        extensionId: "music",
         iconURL: musicIconURL,
         insetIconURL: musicInsetIconURL,
         description: (
@@ -68,7 +71,7 @@ export default [
                 id="gui.extension.music.description"
             />
         ),
-        featured: true
+        featured: true,
     },
     {
         name: (
@@ -78,7 +81,7 @@ export default [
                 id="gui.extension.pen.name"
             />
         ),
-        extensionId: 'pen',
+        extensionId: "pen",
         iconURL: penIconURL,
         insetIconURL: penInsetIconURL,
         description: (
@@ -88,7 +91,7 @@ export default [
                 id="gui.extension.pen.description"
             />
         ),
-        featured: true
+        featured: true,
     },
     {
         name: (
@@ -98,7 +101,7 @@ export default [
                 id="gui.extension.videosensing.name"
             />
         ),
-        extensionId: 'videoSensing',
+        extensionId: "videoSensing",
         iconURL: videoSensingIconURL,
         insetIconURL: videoSensingInsetIconURL,
         description: (
@@ -108,7 +111,7 @@ export default [
                 id="gui.extension.videosensing.description"
             />
         ),
-        featured: true
+        featured: true,
     },
     {
         name: (
@@ -118,8 +121,8 @@ export default [
                 id="gui.extension.text2speech.name"
             />
         ),
-        extensionId: 'text2speech',
-        collaborator: 'Amazon Web Services',
+        extensionId: "text2speech",
+        collaborator: "Amazon Web Services",
         iconURL: text2speechIconURL,
         insetIconURL: text2speechInsetIconURL,
         description: (
@@ -130,7 +133,7 @@ export default [
             />
         ),
         featured: true,
-        internetConnectionRequired: true
+        internetConnectionRequired: true,
     },
     {
         name: (
@@ -140,8 +143,8 @@ export default [
                 id="gui.extension.translate.name"
             />
         ),
-        extensionId: 'translate',
-        collaborator: 'Google',
+        extensionId: "translate",
+        collaborator: "Google",
         iconURL: translateIconURL,
         insetIconURL: translateInsetIconURL,
         description: (
@@ -152,12 +155,12 @@ export default [
             />
         ),
         featured: true,
-        internetConnectionRequired: true
+        internetConnectionRequired: true,
     },
     {
-        name: 'Makey Makey',
-        extensionId: 'makeymakey',
-        collaborator: 'JoyLabz',
+        name: "Makey Makey",
+        extensionId: "makeymakey",
+        collaborator: "JoyLabz",
         iconURL: makeymakeyIconURL,
         insetIconURL: makeymakeyInsetIconURL,
         description: (
@@ -167,12 +170,12 @@ export default [
                 id="gui.extension.makeymakey.description"
             />
         ),
-        featured: true
+        featured: true,
     },
     {
-        name: 'micro:bit',
-        extensionId: 'microbit',
-        collaborator: 'micro:bit',
+        name: "micro:bit",
+        extensionId: "microbit",
+        collaborator: "micro:bit",
         iconURL: microbitIconURL,
         insetIconURL: microbitInsetIconURL,
         description: (
@@ -197,12 +200,12 @@ export default [
                 id="gui.extension.microbit.connectingMessage"
             />
         ),
-        helpLink: 'https://scratch.mit.edu/microbit'
+        helpLink: "https://scratch.mit.edu/microbit",
     },
     {
-        name: 'LEGO MINDSTORMS EV3',
-        extensionId: 'ev3',
-        collaborator: 'LEGO',
+        name: "LEGO MINDSTORMS EV3",
+        extensionId: "ev3",
+        collaborator: "LEGO",
         iconURL: ev3IconURL,
         insetIconURL: ev3InsetIconURL,
         description: (
@@ -227,12 +230,12 @@ export default [
                 id="gui.extension.ev3.connectingMessage"
             />
         ),
-        helpLink: 'https://scratch.mit.edu/ev3'
+        helpLink: "https://scratch.mit.edu/ev3",
     },
     {
-        name: 'LEGO BOOST',
-        extensionId: 'boost',
-        collaborator: 'LEGO',
+        name: "LEGO BOOST",
+        extensionId: "boost",
+        collaborator: "LEGO",
         iconURL: boostIconURL,
         insetIconURL: boostInsetIconURL,
         description: (
@@ -258,12 +261,12 @@ export default [
                 id="gui.extension.boost.connectingMessage"
             />
         ),
-        helpLink: 'https://scratch.mit.edu/boost'
+        helpLink: "https://scratch.mit.edu/boost",
     },
     {
-        name: 'LEGO Education WeDo 2.0',
-        extensionId: 'wedo2',
-        collaborator: 'LEGO',
+        name: "LEGO Education WeDo 2.0",
+        extensionId: "wedo2",
+        collaborator: "LEGO",
         iconURL: wedo2IconURL,
         insetIconURL: wedo2InsetIconURL,
         description: (
@@ -289,12 +292,12 @@ export default [
                 id="gui.extension.wedo2.connectingMessage"
             />
         ),
-        helpLink: 'https://scratch.mit.edu/wedo'
+        helpLink: "https://scratch.mit.edu/wedo",
     },
     {
-        name: 'Go Direct Force & Acceleration',
-        extensionId: 'gdxfor',
-        collaborator: 'Vernier',
+        name: "Go Direct Force & Acceleration",
+        extensionId: "gdxfor",
+        collaborator: "Vernier",
         iconURL: gdxforIconURL,
         insetIconURL: gdxforInsetIconURL,
         description: (
@@ -319,27 +322,20 @@ export default [
                 id="gui.extension.gdxfor.connectingMessage"
             />
         ),
-        helpLink: 'https://scratch.mit.edu/vernier'
+        helpLink: "https://scratch.mit.edu/vernier",
     },
 
     {
-        name: 'TURIP',
-        extensionId: 'turip',
-        collaborator: 'MakTak',
+        name: "TupotOne",
+        extensionId: "tupotone",
+        collaborator: "TURIP Tech.",
         iconURL: turipBlocksImage,
         insetIconURL: turipBlocksInsetImage,
-        description: (
-            <FormattedMessage
-                defaultMessage="TURIP blocks."
-                description="Manage TURIP-Pods."
-                id="gui.extension.newblocks.description"
-            />
-        ),
+        description: "Tupot One blocks.",
         featured: true,
         disabled: false,
-        internetConnectionRequired: true,
+        internetConnectionRequired: false,
         bluetoothRequired: false,
-        helpLink: 'https://scratch.mit.edu/wedo'
-
-    }
+        helpLink: "https://www.turip.jp/",
+    },
 ];
