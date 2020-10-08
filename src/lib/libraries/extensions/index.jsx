@@ -1,9 +1,6 @@
 import React from 'react';
 import {FormattedMessage} from 'react-intl';
 
-import turipBlocksImage from './newblocks/newblocks.png'
-import turipBlocksInsetImage from './newblocks/newblocks-small.png'
-
 import musicIconURL from './music/music.png';
 import musicInsetIconURL from './music/music-small.svg';
 
@@ -329,8 +326,8 @@ export default [
         name: "TupotOne",
         extensionId: "tupotone",
         collaborator: "TURIP Tech.",
-        iconURL: turipBlocksImage,
-        insetIconURL: turipBlocksInsetImage,
+        iconURL: tupotoneBlocksImage,
+        insetIconURL: tupotoneBlocksInsetImage,
         description: "Tupot One blocks.",
         featured: true,
         disabled: false,
