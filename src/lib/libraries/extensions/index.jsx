@@ -55,6 +55,9 @@ import tupotoneBlocksInsetImage from './tupotone/tupotone-small.png';
 import ml2scratchIconURL from './ml2scratch/ml2scratch.png';
 import ml2scratchInsetIconURL from './ml2scratch/ml2scratch-small.png';
 
+import qrcodeIconURL from './qrcode/qrcode.png';
+import qrcodeInsetIconURL from './qrcode/qrcode-small.svg';
+
 export default [
     {
         name: (
@@ -356,6 +359,31 @@ export default [
         featured: true,
         disabled: false,
         internetConnectionRequired: true,
+        bluetoothRequired: false,
+    },
+    {
+        name: "QRコード",
+        extensionId: "qrcode",
+        collaborator: "Sugiura Lab",
+        iconURL: qrcodeIconURL,
+        insetIconURL: qrcodeInsetIconURL,
+        description: (
+            <FormattedMessage
+                defaultMessage="QRコードを読み取ります。{credit}"
+                description="QRコードを読み取ります。{credit}"
+                values={{
+                    credit: (
+                        <div style={{ fontSize: "0.6em" }}>
+                            QRコードは株式会社デンソーウェーブの登録商標です。
+                        </div>
+                    ),
+                }}
+                id="gui.extension.qrcodeblocks.description"
+            />
+        ),
+        featured: true,
+        disabled: false,
+        internetConnectionRequired: false,
         bluetoothRequired: false,
     },
 ];
